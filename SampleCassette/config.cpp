@@ -29,12 +29,7 @@ class CfgVehicles
 
 class CfgSoundShaders
 {
-	class Hell_K7_SoundShader
-	{
-		range=200;
-		rangeCurve="{{0,1},{20,0.9},{40,0.8},{60,0.7},{80,0.6},{100,0.5},{120,0.4},{140,0.3},{160,0.2},{180,0.1},{200,0}}";
-	};
-	
+	class Hell_K7_SoundShader;
 	class Hell_K7_SampleCassette_SoundShader: Hell_K7_SoundShader
 	{
 		samples[]=
