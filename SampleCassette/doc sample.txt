@@ -1,0 +1,59 @@
+You can mod your own cassette with your own song.
+
+- Use OGG files for sound!
+- Replace <Your_Unique_Cassette_Name_Here> by your own value, if you dont, the cassette will dont work.
+- Dont forget it's not recommended to publish copryrighted songs without autorization.
+
+class CfgPatches
+{
+	class <What_You_Want_Here>
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = 
+		{
+			// Dont remove following lines
+			"DZ_Data", 
+			"DZ_Sounds_Effects",
+			"H2A_HellRetexSurvival_Contents",
+			"H2A_HellRetexSurvival_Scripts"
+		};
+	};
+};
+
+class CfgVehicles
+{
+	class Hell_K7;
+	class Hell_K7_<Your_Unique_Cassette_Name_Here>: Hell_K7
+	{
+		scope = 2;
+		displayName = "";
+		descriptionShort = "";
+	};
+};
+
+
+class CfgSoundShaders
+{
+	class Hell_K7_SoundShader;
+	class Hell_K7_<Your_Unique_Cassette_Name_Here>_SoundShader: Hell_K7_SoundShader
+	{
+		samples[]=
+		{	
+			{"path/to/your/ogg/sound/file",1}
+		};
+		volume=1.0;
+	};		
+};
+
+class CfgSoundSets
+{
+	class Hell_K7_<Your_Unique_Cassette_Name_Here>_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Hell_K7_<Your_Unique_Cassette_Name_Here>_SoundShader"
+		};
+	};
+};
