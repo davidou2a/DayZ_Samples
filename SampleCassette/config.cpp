@@ -9,8 +9,8 @@ class CfgPatches
 		{
 			"DZ_Data", 
 			"DZ_Sounds_Effects",
-			"H2A_HellRetexSurvival_Contents",
-			"HRS_Scripts"
+			"H2A_HellRetexSurvival_Contents", // Will be replaced by "HRS_Items" and "HRS_Items_cfg"
+			"HRS_Scripts" // Since 2021/01/17 replace "H2A_HellRetexSurvival_Scripts"
 		};
 	};
 };
