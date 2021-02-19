@@ -9,8 +9,9 @@ class CfgPatches
 		{
 			"DZ_Data", 
 			"DZ_Sounds_Effects",
-			"H2A_HellRetexSurvival_Contents",
-			"H2A_HellRetexSurvival_Scripts"
+			"HRS_Items",
+			"HRS_Items_cfg",
+			"HRS_Scripts"
 		};
 	};
 };
