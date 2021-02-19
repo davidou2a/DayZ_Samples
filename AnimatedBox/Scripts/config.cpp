@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class H2A_DayZ_Samples
+	class H2A_AnimatedBox
 	{
 		units[] = {};
 		weapons[] = {};
@@ -15,9 +15,9 @@ class CfgPatches
 
 class CfgMods
 {
-	class H2A_DayZ_Samples
+	class H2A_AnimatedBox_Scripts
 	{
-		dir = "H2A/DayZ_Samples";
+		dir = "H2A\DayZ_Samples\AnimatedBox\Scripts";
 		picture = "";
 		action = "";
 		hideName = 0;
@@ -38,17 +38,17 @@ class CfgMods
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"H2A/DayZ_Samples/Scripts/3_Game"};
+				files[] = {"H2A\DayZ_Samples\AnimatedBox\Scripts\3_Game"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"H2A/DayZ_Samples/Scripts/4_World"};
+				files[] = {"H2A\DayZ_Samples\AnimatedBox\Scripts\4_World"};
 			};
 			class missionScriptModule
 			{
 				value = "";
-				files[] = {"H2A/DayZ_Samples/Scripts/5_Mission"};
+				files[] = {"H2A\DayZ_Samples\AnimatedBox\Scripts\5_Mission"};
 			};
 		};
 	};

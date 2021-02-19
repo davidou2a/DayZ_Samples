@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class H2A_DayZ_Samples_SampleCassette
+	class H2A_SampleCassette
 	{
 		units[] = {};
 		weapons[] = {};

@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class H2A_DayZ_Samples_AnimatedBox
+	class H2A_AnimatedBox_Assets
 	{
 		units[] = {};
 		weapons[] = {};
@@ -21,7 +21,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "H2A_Box";
 		descriptionShort = "H2A_Box";
-		model = "H2A\DayZ_Samples\AnimatedBox\box.p3d";
+		model = "H2A\DayZ_Samples\AnimatedBox\Assets\box.p3d";
 		heavyItem = 1;
 		weight = 10000;
 		itemSize[] = {10,15};
